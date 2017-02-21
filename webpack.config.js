@@ -1,6 +1,6 @@
 
 const ENV = process.env.WEBPACK_ENV || 'dev';
-
+const PORT = process.env.PORT || 8080;
 console.log('\r\n\r\n ============================\r\n\r\n');
 console.log(` Environment: ${ENV}`);
 console.log('\r\n\r\n ============================\r\n\r\n');
@@ -147,7 +147,7 @@ const config = {
   },
   devServer: {
     contentBase: './htdocs',
-    port: 8888,
+    port: PORT,
   },
 };
 

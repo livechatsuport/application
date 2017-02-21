@@ -28,7 +28,7 @@
     "dev": "WEBPACK_ENV=dev && webpack-dev-server --progress --colors --inline",
     "build": "WEBPACK_ENV=prod && webpack --progress",
     "dev:windows": "set WEBPACK_ENV=dev && webpack-dev-server --progress --colors --inline",
-    "build:windows": " set WEBPACK_ENV=prod && webpack --progress"
+    "build:windows": "set WEBPACK_ENV=prod && webpack --progress"
   },
   "repository": {
     "type": "git",
